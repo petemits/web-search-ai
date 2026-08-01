@@ -1,0 +1,29 @@
+{
+  "name": "web-search-chat-ai",
+  "version": "1.0.0",
+  "description": "Advanced web search with local AI using LangChain",
+  "main": "web-search-chat-ai.js",
+  "scripts": {
+    "start": "node web-search-chat-ai.js",
+    "dev": "node web-search-chat-ai.js"
+  },
+  "dependencies": {
+    "puppeteer": "^21.0.0",
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0-rc.12",
+    "readline": "^1.3.0",
+    "chalk": "^4.1.2",
+    "@langchain/community": "^0.0.10",
+    "langchain": "^0.0.78",
+    "ollama": "^0.1.12"
+  },
+  "keywords": [
+    "web-search",
+    "langchain",
+    "local-ai",
+    "ollama",
+    "chat"
+  ],
+  "author": "Web Search AI",
+  "license": "MIT"
+}
